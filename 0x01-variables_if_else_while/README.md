@@ -1,1 +1,1 @@
-A script that prints the lowercase alphabet in reverse, only use the putchar function
+A script that prints all the numbers of base 16 in lowercase, only use the putchar function
