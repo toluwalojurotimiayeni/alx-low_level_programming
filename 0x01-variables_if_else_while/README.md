@@ -1,1 +1,1 @@
-A script that prints all single digit numbers of base 10 starting from 0 only use the putchar function 
+A script that prints the lowercase alphabet in reverse, only use the putchar function
