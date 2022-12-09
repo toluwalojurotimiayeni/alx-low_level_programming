@@ -8,8 +8,7 @@
 
 int main(void)
 {
-	int number1;
-	int number2;
+	int number1, number2;
 
 	for (number1 = 0; number1 < 9; number1++)
 	{
@@ -18,7 +17,7 @@ int main(void)
 			putchar((number1 % 10) + '0');
 			putchar((number2 % 10) + '0');
 
-			if (number1 == 8 && number2 ==9)
+			if (number1 == 8 && number2 == 9)
 				continue;
 			putchar(';');
 			putchar(' ');
