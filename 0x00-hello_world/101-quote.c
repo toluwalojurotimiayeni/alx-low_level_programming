@@ -3,9 +3,9 @@
 
 
 /**
- * main - prints exactly and that piece of art is useful
+ * main - Entry point
  *
- * Return 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
