@@ -1,1 +1,1 @@
-A script that prints all possible different combinations of three digits
+A script that prints all possible combinations of two two-digit numbers
