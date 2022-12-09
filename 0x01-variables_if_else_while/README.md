@@ -1,1 +1,1 @@
-The last digit
+Last digit
