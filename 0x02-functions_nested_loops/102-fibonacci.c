@@ -9,23 +9,21 @@
 int main(void)
 {
 	int count;
-	long n;
-	long m;
-	long sum;
+	long n = 1;
+	long m = 1;
+	long sum = 50;
 
-	for (count = 0; count < 50; count++)
+	for (count = 1; count <= (sum / 2); count++)
 	{
-		sum = n + m;
-		printf("%lu", sum);
+		printf("%li %li ", n, m);
 
-		n = m;
-		m = sum;
-
-		if (count == 49)
-			printf("\n");
-		else
-			printf(", ");
+		n += m;
+		m += n;
 	}
+	if (sum % 2 == 1)
+		printf("%li", a);
+
+	printf("\n");
 
 	return (0);
 }
