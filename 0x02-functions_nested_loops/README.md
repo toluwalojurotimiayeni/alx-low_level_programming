@@ -1,1 +1,1 @@
-A function that prints all natural numbers from n to 98
+A function that prints the n times table, starting with 0
