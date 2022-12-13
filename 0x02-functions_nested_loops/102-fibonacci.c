@@ -21,7 +21,7 @@ int main(void)
 		m += n;
 	}
 	if (sum % 2 == 1)
-		printf("%li", a);
+		printf("%li", n);
 
 	printf("\n");
 
