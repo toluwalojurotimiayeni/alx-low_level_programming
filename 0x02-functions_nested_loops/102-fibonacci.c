@@ -10,7 +10,7 @@ int main(void)
 {
 	int count;
 	long n = 1;
-	long m = 1;
+	long m = 2;
 	long sum = 50;
 
 	for (count = 1; count <= (sum / 2); count++)
