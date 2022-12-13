@@ -1,1 +1,1 @@
-Prints the alphabet, in lowercase
+Prints 10 times the alphabet, in lowercase
