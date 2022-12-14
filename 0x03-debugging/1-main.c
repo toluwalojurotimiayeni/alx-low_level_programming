@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Comment out the part of the code that is causing the output
- *  to go into an infinite loop
- *
- *  Return: Always 0 (Success)
+ * main - causes an infinite loop
+ *  Return: 0
  */
 
 int main(void)
