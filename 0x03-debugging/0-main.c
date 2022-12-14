@@ -8,9 +8,11 @@
 
 int main(void)
 {
-	int n = 0;
+	int i;
 
-	positive_or_negative(n);
+	i = 0;
+
+	positive_or_negative(i);
 
 	return (0);
 }
