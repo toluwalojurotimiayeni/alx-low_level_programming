@@ -1,1 +1,1 @@
-A function that prints 10 times the numbers, from 0 to 14
+A function that draws a straight line in the terminal
