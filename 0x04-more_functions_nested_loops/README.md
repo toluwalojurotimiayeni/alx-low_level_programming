@@ -1,1 +1,1 @@
-A function that multiplies two integers
+A function that prints the numbers, from 0 to 9
