@@ -1,1 +1,1 @@
-A function that finds and prints the largest prime factor of the number 612852475143
+A function that prints an integer
