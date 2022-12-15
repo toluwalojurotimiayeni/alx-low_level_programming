@@ -1,1 +1,1 @@
-A function that draws a straight line in the terminal
+A function that draws a diagonal line on the terminal 
