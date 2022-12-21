@@ -1,1 +1,1 @@
-A function that prints half of a string
+A function that prints n elements of an array of integers, followed by a new line
