@@ -1,1 +1,1 @@
-A function that prints a string, in reverse, followed by a new line
+A function that reverses a string
