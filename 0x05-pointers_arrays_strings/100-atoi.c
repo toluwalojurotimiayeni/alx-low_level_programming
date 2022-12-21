@@ -6,7 +6,7 @@
  * Return: The integer
  */
 
-int _atoi(char *s);
+int _atoi(char *s)
 {
 	int n = 0;
 	unsigned int m = 0;
