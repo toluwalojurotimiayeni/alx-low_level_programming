@@ -1,1 +1,1 @@
-A function that prints an integer
+A function that prints a[2] = 98
