@@ -1,1 +1,1 @@
-A function that copies a string
+A function that compares two string
