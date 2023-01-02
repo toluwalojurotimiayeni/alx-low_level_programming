@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_diagsums - A function that prints the sum of the two
@@ -12,8 +13,8 @@ void print_diagsums(int *a, int size)
 {
 	int x = 0;
 	int y = 0;
-	int z
-	int m
+	int z;
+	int m;
 
 	for (z = 0; z < size; z++)
 	{
