@@ -10,21 +10,20 @@
 
 void print_diagsums(int *a, int size)
 {
-	int x;
-	int y;
-	int z;
-	int n = 0;
-	int m = 0;
+	int x = 0;
+	int y = 0;
+	int z
+	int m
 
-	for (x = 0; x < size; x++)
+	for (z = 0; z < size; z++)
 	{
-		z = (x * size) + x;
-		n += *(a + z);
+		m = (z * size) + z;
+		x += a[m];
 	}
-	for (y = 0; y < size; y++)
+	for (z = 1; z <= size; z++)
 	{
-		z = (y * size) + (size - 1 - y);
-		m += *(a + z);
+		m = (z * size) - z;
+		y += a[m];
 	}
-	printf("%i, %i\n", n, m);
+	printf("%d, %d\n", x, y);
 }
