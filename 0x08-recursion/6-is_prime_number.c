@@ -4,7 +4,7 @@
  * prime - This checks if it is a prime number
  * @x: This is the first integer
  * @y: this is the second integer
- * Return : The prime number
+ * Return: The integer
  */
 
 int prime(int x, int y)
