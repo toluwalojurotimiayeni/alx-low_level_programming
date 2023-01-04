@@ -1,1 +1,1 @@
-A function that returns 1 if a string is a palindrome and 0 if not
+A function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0
