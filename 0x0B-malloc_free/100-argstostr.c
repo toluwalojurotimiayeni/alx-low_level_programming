@@ -16,7 +16,7 @@ char *argstostr(int ac, char **av)
 	int y;
 	int z;
 	int length = 0;
-	char *string;
+	char *str;
 	char *arg;
 
 	if (ac == 0 || av == NULL)
@@ -42,13 +42,13 @@ char *argstostr(int ac, char **av)
 
 		while (arg[z])
 		{
-			string[y] = arg[z];
+			str[y] = arg[z];
 			z++;
 			y++;
 		}
-		string[y++] = '\n';
+		str[y++] = '\n';
 	}
-	string[y] = '\0';
+	str[y] = '\0';
 
-	return (string);
+	return (str);
 }
