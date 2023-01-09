@@ -40,7 +40,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (x = 0; x < length1; x++)
 		concat[x] = s1[x];
-	for (y = 0; y < length2; y++; x++)
+	for (y = 0; y < length2; y++, x++)
 		concat[x] = s2[y];
 	concat[length] = '\0';
 
