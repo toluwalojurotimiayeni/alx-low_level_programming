@@ -16,7 +16,7 @@ char *argstostr(int ac, char **av)
 	int y;
 	int z;
 	int length = 0;
-	char *str;
+	char *string;
 	char *arg;
 
 	if (ac == 0 || av == NULL)
@@ -32,8 +32,8 @@ char *argstostr(int ac, char **av)
 			length++;
 		length++;
 	}
-	arg = (char *)malloc(sizeof(char) * (length + 1));
-	if (arg == NULL)
+	string = (char *)malloc(sizeof(char) * (length + 1));
+	if (string == NULL)
 		return (NULL);
 	for (x = 0, y = 0; x < ac && y < length; x++)
 	{
@@ -42,13 +42,13 @@ char *argstostr(int ac, char **av)
 
 		while (arg[z])
 		{
-			str[y] = arg[z];
+			string[y] = arg[z];
 			z++;
 			y++;
 		}
-		str[y++] = '\n';
+		string[y++] = '\n';
 	}
-	str[y] = '\0';
+	string[y] = '\0';
 
-	return (str);
+	return (string);
 }
