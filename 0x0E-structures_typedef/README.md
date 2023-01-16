@@ -1,1 +1,1 @@
-A function that prints a struct dog
+A function that frees dogs
