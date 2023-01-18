@@ -1,1 +1,1 @@
-A function that searches for an integer
+A file that contains all the function prototypes and data structures used by the program
