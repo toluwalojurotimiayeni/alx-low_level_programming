@@ -1,1 +1,1 @@
-A file that contains all the function prototypes and data structures used by the program
+A file should contain the 5 following functions (not more)
