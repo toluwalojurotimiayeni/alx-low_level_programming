@@ -1,1 +1,1 @@
-This file should contain your main function only
+A program that prints the opcodes of its own main function
