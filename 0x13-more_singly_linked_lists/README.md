@@ -1,1 +1,1 @@
-This is a  README.md on more singly linked lists
+A function that returns the number of elements in a linked listint_t list
