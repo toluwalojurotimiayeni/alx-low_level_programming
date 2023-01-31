@@ -1,1 +1,1 @@
-A function that reverses a listint_t linked list
+A function that finds the loop in a linked list
