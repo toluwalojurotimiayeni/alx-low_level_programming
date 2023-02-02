@@ -1,1 +1,1 @@
-A function that converts a binary number to an unsigned int
+The password for this program
