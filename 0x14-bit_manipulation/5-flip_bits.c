@@ -11,10 +11,8 @@
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned int x;
-	unsigned int y;
-	unsigned long int difference;
-	unsigned long int result;
+	unsigned long int differnce, result;
+	unsigned int x, y;
 
 	x = 0;
 	result = 1;
